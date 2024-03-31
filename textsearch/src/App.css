@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* Container for the search area */
+.search-container {
+  padding: 20px;
+}
+
+/* Style for the search box */
+.search-box {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the results counter */
+.results-count {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+/* Card styles for each result */
+.article-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.article-date {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.article-snippet {
+  color: #333;
+  font-size: 1rem;
+}
+
+/* Highlight class for search term */
+.highlight {
+  background-color: #ffc107;
+  font-weight: bold;
+}
+
+/* Responsive grid for layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header styles */
+.header {
+  padding: 20px 0;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .search-box {
+    width: 50%;
+    margin: auto;
+  }
+}

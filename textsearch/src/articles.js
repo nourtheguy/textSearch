@@ -1,0 +1,35 @@
+const articles = [
+  { id: 1, text: 'React makes it painless to create interactive UIs.' },
+  { id: 2, text: 'Learn concepts such as components, props, and state.' },
+  { id: 3, text: 'Component-based architecture is a highlight of React.' },
+  { id: 4, text: 'Utilizing React hooks simplifies state management.' },
+  { id: 5, text: 'Redux provides a predictable state container for JavaScript apps.' },
+  { id: 6, text: 'TypeScript brings static type checking to JavaScript.' },
+  { id: 7, text: 'Next.js is a powerful React framework for server-rendered apps.' },
+  { id: 8, text: 'GraphQL offers a new way to structure server queries.' },
+  { id: 9, text: 'Frontend developers often need to understand cross-browser compatibility.' },
+  { id: 10, text: 'Responsive design ensures your app works on all devices.' },
+  { id: 11, text: 'CSS Grid and Flexbox are tools for creating dynamic layouts.' },
+  { id: 12, text: 'PWA (Progressive Web App) techniques allow for offline-capable web applications.' },
+  { id: 13, text: 'JavaScript modules help in maintaining a clean codebase.' },
+  { id: 14, text: 'WebAssembly is opening doors to new performance gains on the web.' },
+  { id: 15, text: 'SEO (Search Engine Optimization) is essential for web visibility.' },
+  { id: 16, text: 'The Renaissance period marked the rebirth of classical art.' },
+  { id: 17, text: 'Impressionism is a 19th-century art movement that emphasizes light and small brushstrokes.' },
+  { id: 18, text: 'Cubism challenged conventional forms of representation in art.' },
+  { id: 19, text: 'Modern art includes artistic work produced during the period extending roughly from the 1860s to the 1970s.' },
+  { id: 20, text: 'Contemporary art is the art of today, produced by artists who are living in the twenty-first century.' },
+  { id: 21, text: 'Street art has evolved from vandalism to a highly respected art form.' },
+  { id: 22, text: 'Art therapy uses the creative process of making art to improve a person’s physical, mental, and emotional well-being.' },
+  { id: 23, text: 'Digital art utilizes technology as an essential part of the creative or presentation process.' },
+  { id: 24, text: 'Surrealism is a cultural movement that started in 1917, and is best known for its visual artworks and writings.' },
+  { id: 25, text: 'Abstract art uses a visual language of shape, form, color, and line to create a composition which may exist with a degree of independence from visual references in the world.' },
+  { id: 26, text: 'Art can be a powerful tool for social change, providing a voice to the voiceless.' },
+  { id: 27, text: 'The art market includes the buying, selling, and valuation of fine art.' },
+  { id: 28, text: 'Art conservation and restoration is a field dedicated to the preservation of cultural heritage for future generations.' },
+  { id: 29, text: 'Performance art is a performance presented to an audience within a fine art context, traditionally interdisciplinary.' },
+  { id: 30, text: 'Conceptual art is art in which the concept(s) or idea(s) involved in the work take precedence over traditional aesthetic, technical, and material concerns.' }
+];
+
+
+export default articles;
